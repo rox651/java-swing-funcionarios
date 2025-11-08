@@ -6,7 +6,7 @@ Aplicación de escritorio en Java Swing con patrón DAO y manejo de excepciones 
 
 ### Requisitos
 
--  Java 17+
+-  Java 21+
 -  Maven 3.9+
 -  MySQL 8+
 
@@ -16,14 +16,14 @@ macOS (Homebrew):
 
 ```bash
 brew update
-brew install temurin@17 maven mysql
+brew install temurin@21 maven mysql
 brew services start mysql
 ```
 
 Windows (winget):
 
 ```powershell
-winget install EclipseAdoptium.Temurin.17.JDK
+winget install EclipseAdoptium.Temurin.21.JDK
 winget install Apache.Maven
 winget install Oracle.MySQL
 ```
@@ -31,14 +31,14 @@ winget install Oracle.MySQL
 Windows (Chocolatey, alternativa):
 
 ```powershell
-choco install temurin17 maven mysql --yes
+choco install temurin21 maven mysql --yes
 ```
 
 Linux (Ubuntu/Debian):
 
 ```bash
 sudo apt update
-sudo apt install -y openjdk-17-jdk maven mysql-server
+sudo apt install -y openjdk-21-jdk maven mysql-server
 sudo service mysql start
 ```
 
